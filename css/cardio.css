@@ -738,6 +738,14 @@ footer .social-footer li:hover a {
 	box-shadow: 0;
 }
 
+.form-control.form-wine {
+	color: #4D79A2;
+	border: 2px solid  #4D79A2;
+	background: transparent;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+}
+
 .form-control.form-white {
 	color: #fff;
 	border: 2px solid white;
@@ -772,6 +780,32 @@ footer .social-footer li:hover a {
 	background: rgba(255,255,255,0.2);
 }
 
+.form-control.form-wine::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #fff;
+}
+
+.form-control.form-wine:-moz-placeholder {
+	opacity: 1;
+	/* Mozilla Firefox 4 to 18 */
+	color: #fff;
+}
+
+.form-control.form-wine::-moz-placeholder {
+	opacity: 1;
+	/* Mozilla Firefox 19+ */
+	color: #fff;
+}
+
+.form-control.form-wine:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #fff;
+}
+
+.form-control.form-wine:focus {
+	background: rgba(255,255,255,0.2);
+}
+
 /* Popup */
 .modal {
 	padding: 0 25px !important;
@@ -791,6 +825,16 @@ footer .social-footer li:hover a {
 	box-shadow: none;
 	border-radius: 2px;
 }
+
+.modal-popje {
+	position: relative;
+	padding: 45px 30px;
+	text-align: center;
+	box-shadow: none;
+	border-radius: 2px;
+	border: red;
+}
+
 
 .modal-popup a.close-link {
 	font-size: 22px;
